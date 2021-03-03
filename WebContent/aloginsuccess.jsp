@@ -53,5 +53,20 @@
 			</form>
 		</div>
 	</div>
+	<div class="main-container">
+		<div class="content">
+			<h1 class="content-header">ACCEPT PAYMENT</h1>
+			<h3 class="content-info">Enter client booking ID to get the receipt and free the slot</h3>
+			<form action="pdf-generator" method="post">
+				<table>
+					<tr>
+						<td>Enter Booking ID:</td>
+						<td><input type="number" name="booking_id" class="input"></td>
+					</tr>
+				</table>
+				<button type="submit" class="btn"><span>Print Receipt</span></button>
+			</form>
+		</div>
+	</div>
 </body>
 </html>
